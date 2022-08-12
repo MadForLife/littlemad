@@ -1,4 +1,106 @@
-body
+* {
+	box-sizing: border-box;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.temp {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0px 0px 0px;
+	color:black;
+	text-align: center;
+}
+
+.content
 {
-	background-color: coral;
+	width: 100%;
+	min-height: 800px;
+	background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/03/42361/aesthetic-anime-04.jpg);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  
+  h2,
+  h3,
+  a {
+	  color: #34495e;
+  }
+  
+  a {
+	  text-decoration: none;
+  }
+  
+  .logo {
+	  margin: 0;
+	  font-size: 1.45em;
+  }
+  
+  .main-nav {
+	  margin-top: 5px;
+  
+  }
+  .logo a,
+  .main-nav a {
+	  padding: 10px 15px;
+	  text-transform: uppercase;
+	  text-align: center;
+	  display: block;
+  }
+  
+  .main-nav a {
+	  color: #34495e;
+	  font-size: .99em;
+  }
+  
+  .main-nav a:hover {
+	  color: #718daa;
+  }
+  
+  .header {
+	  padding-top: .5em;
+	  padding-bottom: .5em;
+	  border: 1px solid #a2a2a2;
+	  background-color: #f4f4f4;
+	  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+  }
+
+  @media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
 }
