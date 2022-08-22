@@ -17,7 +17,7 @@ header {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: url('/images/header-background.jpg');
+	background-image: url('https://github.com/MadForLife/littlemad/blob/c23bb2396ebb40b8342168dc0ee95697418c8a46/images/header-background.jpg');
 	overflow: hidden;
 	
 }
